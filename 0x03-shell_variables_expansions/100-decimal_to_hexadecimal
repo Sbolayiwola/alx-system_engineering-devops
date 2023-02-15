@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "$(( 16#(10#$DECIMAL) ))"
+echo $(( 16#(10#$DECIMAL) ))
